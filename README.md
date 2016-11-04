@@ -6,7 +6,7 @@ where the goal is to construct a predictive model based on
 a subset of predictive patterns in the database. Our main
 contribution is to introduce a novel method called safe pat-
 tern pruning (SPP) for a class of predictive pattern mining
-problems. The SPP method allows us to eciently nd a superset
+problems. The SPP method allows us to efficiently nd a superset
 of all the predictive patterns in the database that are
 needed for the optimal predictive model. The advantage of
 the SPP method over existing boosting-type method is that

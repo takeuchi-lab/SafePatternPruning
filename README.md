@@ -1,6 +1,8 @@
 # SafePatternPruning: An Efficient Approach for Predictive Pattern Mining (KDD'16)
 
+<div align="center">
 <img src="fig/graph.png" width="500px">
+</div>
 
 ## Abstract
 In this paper we study predictive pattern mining problems

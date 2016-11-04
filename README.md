@@ -25,6 +25,10 @@ the optimal predictive model. We apply the SPP method
 to graph mining and item-set mining problems, and demonstrate
 its computational advantage.
 
+## Environmental Requirement
+- gcc version 4.8.4
+- GNU Make 3.81
+
 ## How to Compile
 ```
 cd graphLasso (or graphSVM, itemLasso, itemSVM)

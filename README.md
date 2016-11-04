@@ -25,11 +25,16 @@ the optimal predictive model. We apply the SPP method
 to graph mining and item-set mining problems, and demonstrate
 its computational advantage.
 
-## Usage
+## How to Compile
+```
+cd graphLasso (or graphSVM, itemLasso, itemSVM)
+make
+```
 
+## Usage
 `./train [option] [filename]`
 
-### option: 
+### option
 - -T : compute regularization path for a sequence of T \lambda evenly allocated between \lambda_0 and 0.01\lambda
 
 - -F : calculate duality gap and dynamic screening every F iteration
@@ -39,3 +44,9 @@ its computational advantage.
 - -D : maxdepth or maxpat
 
 - -B : with bias (0 or 1)
+
+### Example
+`./train -T 100 -F 50 -D 3 -B 1 ./data/cpdb`
+
+## Lisence
+GNU General Public License
